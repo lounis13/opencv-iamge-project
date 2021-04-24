@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1082.0" prefWidth="1920.0" styleClass="container" stylesheets="@style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="up.image.projet.controller.WindoHomeController">
+    <top>
+        <HBox prefHeight="43.0" prefWidth="1920.0" styleClass="title-bar" BorderPane.alignment="CENTER">
+            <HBox prefHeight="47.0" prefWidth="1865.0">
+                <ToolBar styleClass="tools-bar">
+                    <Button  styleClass="tools-bar-btn" mnemonicParsing="false" text="charger"/>
+                </ToolBar>
+            </HBox>
+            <Button minWidth="21.0" mnemonicParsing="false" onAction="#exitHandler" prefHeight="22.0" prefWidth="21.0" styleClass="btn-exit" />
+        </HBox>
+    </top>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+
+
+</BorderPane>

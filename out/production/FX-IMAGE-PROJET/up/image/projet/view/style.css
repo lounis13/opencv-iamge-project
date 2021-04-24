@@ -1,0 +1,44 @@
+.container {
+    -fx-background-image: url("images/back.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+.title-bar {   
+    -fx-spacing: 1450;
+    -fx-alignment: center-right;
+    -fx-padding: 10px;
+}
+
+.input {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+}
+
+.btn-exit {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/exit.png");
+    -fx-background-size: stretch;
+    -fx-pref-width: 25px;
+    -fx-min-width: 25px;
+    -fx-min-height:25px;
+    -fx-background-position: center center;
+}
+
+.btn-exit:hover {
+    -fx-cursor: hand;
+}
+
+.tools-bar {
+    -fx-background-color: transparent;
+}
+
+.tools-bar-btn {
+    -fx-background-color: transparent;
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
